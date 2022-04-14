@@ -2,7 +2,7 @@
     width:100vw;
     height:50vh;
     padding-top: 10vh;
-    border: 1px solid black;
+    
     display: flex;
     
     align-items: center;
@@ -11,14 +11,16 @@
     
 }
 .about-event{
-width: 600px;
+width: 700px;
 height: 400px;
-border: 1px solid black;
+
+padding-left: 30px;
+line-height: 1em;
 }
 .about-tedx{
     width: 400px;
     height: 400px;
-    border: 1px solid black;
+    border: 1px solid rgb(246, 240, 240);
     padding: 10px;
 }
 .about-event h1,p,h4{
@@ -41,13 +43,16 @@ border: 1px solid black;
     font-size: 18px;
     color: #272727;
     padding-top: 20px;
+    text-align: justify;
 }
 .tedx{
     font-size: 15px;
     color: #272727;
+    text-align: justify;
 }
 .ted{
     font-size: 18px;
     color: black;
+    
 }
 
