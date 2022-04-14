@@ -1,0 +1,48 @@
+.main-page{
+    width: 100vw;
+    height: 50vh;
+    background-repeat: repeat;
+    background-color: greenyellow;
+display: flex;
+padding: 30vh;
+
+align-self: flex-end;
+ 
+  
+  
+}
+.container1{
+    width:100vh;
+    height:30vh; 
+    padding-left: 30vh;
+   
+ 
+   
+   
+}
+.container1 h2{
+    
+    font-size: 80px;
+    font-family: catamaran sans-serif;
+    color:white;
+}
+.text-base-color{
+    color: red;
+}
+.container1 h2,h3,p,h4{
+    color: white;
+    line-height: normal;
+    
+}
+.container1 h3{
+    font-size: 50px;
+    padding-left: 4vw;
+}
+.container1 h4{
+    font-size: 40px;
+    padding-left: 4vw;
+}
+.container1 p{
+    padding-left: 15vw;
+    font-size: 24px;
+}
