@@ -1,0 +1,31 @@
+.timepage {
+  position: relative;
+  text-align: center;
+
+  width: 100%;
+  height: 20%;
+}
+.timepage img {
+  width: 100%;
+  height: 50vh;
+}
+.timepage .centered {
+  display: flex;
+  justify-content: space-around;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+  text-align: center;
+  height: 150px;
+  width: 200px;
+}
+.value {
+  color: white;
+  font-size: 64px;
+}
+.label {
+  color: white;
+  font-size: 24px;
+}

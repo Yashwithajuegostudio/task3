@@ -1,58 +1,60 @@
-.content-page{
-    width:100vw;
-    height:50vh;
-    padding-top: 10vh;
-    
-    display: flex;
-    
-    align-items: center;
-    justify-content: space-around;
+.content-page {
+  width: 100%;
+  height: 50%;
+  padding-top: 10vh;
 
-    
-}
-.about-event{
-width: 700px;
-height: 400px;
+  display: flex;
 
-padding-left: 30px;
-line-height: 1em;
+  align-items: center;
+  justify-content: space-around;
 }
-.about-tedx{
-    width: 400px;
-    height: 400px;
-    border: 1px solid rgb(246, 240, 240);
-    padding: 10px;
-}
-.about-event h1,p,h4{
-    color: black;
-}
-.about h2{
-    font-size: 45px;
-    color: #272727;
-   padding-bottom: 10px;
-    
-   
-}
+.about-event {
+  width: 700px;
+  height: 400px;
 
-.about span{
-    
-    padding-inline: 40px;
-    background-color: red;
+  padding-left: 30px;
+  line-height: 1em;
 }
-.para{
-    font-size: 18px;
-    color: #272727;
-    padding-top: 20px;
-    text-align: justify;
+.about-tedx {
+  width: 400px;
+  height: 40 px;
+  border: 1px solid rgb(246, 240, 240);
+  outline: 1px solid white;
+  padding: 20px;
 }
-.tedx{
-    font-size: 15px;
-    color: #272727;
-    text-align: justify;
+.about-event h1,
+p,
+h4 {
+  color: black;
 }
-.ted{
-    font-size: 18px;
-    color: black;
-    
+.about h2 {
+  font-size: 45px;
+  color: #272727;
+  padding-bottom: 20px;
 }
-
+.about {
+  padding-bottom: 20px;
+}
+.line {
+  width: 70px;
+  height: 4px;
+  background-color: red;
+  border: 2px solid red;
+}
+.para {
+  font-size: 18px;
+  color: #272727;
+  padding-top: 30px;
+  text-align: justify;
+}
+.tedx {
+  font-size: 18px;
+  color: #272727;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.ted {
+  font-size: 18px;
+  color: black;
+  text-align: left;
+}
