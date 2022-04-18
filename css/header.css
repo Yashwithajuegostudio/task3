@@ -1,10 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .container {
-  height: 10vh;
+  height: 9vh;
   width: 100%;
   background-color: rgb(7, 7, 14);
   position: relative;
@@ -40,15 +41,10 @@
   background-color: #aa0404d7;
 }
 
-@media (min-width: 1200px) {
-  .logo {
-    float: left;
-    width: 20%;
-  }
-}
+
 .logo {
-  padding: 30px;
-  height: 3vw;
+  padding: 20px;
+  height: 4vh;
   padding-left: 50px;
 }
 .underline {
@@ -58,12 +54,16 @@
   border: 1px solid white;
 }
 
-@media screen and (max-width:1231px){
+@media screen and (max-width:1241px){
   .nav-items a{
     font-size: 12px;
 
     padding: 10px 5px;
   }
+  .container{
+    height: 7vh;
+  }
+
   .underline{
     display: none;
   }
