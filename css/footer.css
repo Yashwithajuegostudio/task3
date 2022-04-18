@@ -1,32 +1,43 @@
 .footer-page {
   width: 100%;
-  height: 50%;
-  padding-top: 10vh;
-
+  height: 40%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  align-items: center;
-  justify-content: space-around;
-}
 .footer-logo {
-  padding: 25px;
-  height: 5vh;
-  padding-left: 50px;
+  padding-bottom: 10px;
+  height: 4vh;
+
 }
-.disclaimer {
-  text-align: center;
+
+.text-style {
+
   font-size: 14px;
 }
+
 .desclimer-side {
-  width: 700px;
-  height: 400px;
-
-  padding-left: 30px;
-  line-height: 1em;
+  padding: 30px;
+  width: 600px;
+  height: 100px;
 }
-.social-media {
-  width: 400px;
-  height: 400px;
 
-  padding: 20px;
+.social-media {
+  padding: 30px;
+  width: 400px;
+  height: 100px;
+}
+
+.fa {
+  color: grey;
+}
+
+.icons {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 100px;
+  justify-content: space-around;
+  align-items: center;
 }

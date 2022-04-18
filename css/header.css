@@ -4,7 +4,7 @@
 }
 
 .container {
-  height: 15vh;
+  height: 10vh;
   width: 100%;
   background-color: rgb(7, 7, 14);
   position: relative;
@@ -40,15 +40,15 @@
   background-color: #aa0404d7;
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .logo {
     float: left;
     width: 20%;
   }
-} */
+}
 .logo {
-  padding: 25px;
-  height: 7vh;
+  padding: 30px;
+  height: 3vw;
   padding-left: 50px;
 }
 .underline {
@@ -57,11 +57,22 @@
   background-color: white;
   border: 1px solid white;
 }
-/* @media screen and (max-width: 600px) {
-  .nav-items a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
+
+@media screen and (max-width:1231px){
+  .nav-items a{
+    font-size: 12px;
+
+    padding: 10px 5px;
   }
-} */
+  .underline{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:768px){
+
+  .nav-items a{
+    display: none;
+  }
+  
+}
