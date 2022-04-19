@@ -14,29 +14,46 @@
     padding-bottom: 50px;
   }
   .data-time,
-  .location {
+  .location,.btn-div {
+    
     text-align: center;
-    height: 150px;
+    height: 100px;
     width: 300px;
   }
 
     .download-btn {
-    /*   */
-    padding: 20px;
-    width: 200px;
-    height: 70px;
-    color: red;
+
+    padding: 10px;
+    width: 180px;
+    height: 80px;
+    color: #e62b1e;
+    outline: none;
     background-color: white;
-    border-color: red;
+    border: 2px solid #e62b1e;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5em;
   }
-  
+  .download-btn:hover{
+   background-color: #e62b1e;
+   color: white;
+   
+  }
+  .data-time ,.location .header{
+ 
+    font-weight: bold;
+  }
   .time,
   .loc {
     padding: 20px;
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 20px;  
+  
     
   }
-  button {outline:0;}
+  .nobold{
+    font-weight: normal;
+    color: #272727;
+    line-height: 1.5em;
+  }
+ 

@@ -17,17 +17,20 @@
   <link rel="stylesheet" href="./css/time.css" />
   <link rel="stylesheet" href="./css/footer.css" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href='https://d33wubrfki0l68.cloudfront.net/css/1ab1ed918fd8af3c2eb4a18cee19743afe830b0f/res/css/font-awesome.min.css' rel='stylesheet'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!--Navigation starts  -->
 
-  <div class="container">
+  <div class="container navbar navbar-fixed-top ">
     <img class="logo"
-      src="https://d33wubrfki0l68.cloudfront.net/5ead4451772d23914478c08bf33428b6faf2ecec/88a50/res/images/logos/dark.png"
+      src="assets/logo/logo_light.png"
       alt="TEDxJMI" />
-      
+
     <div class="nav-items">
       <ul>
         <a href="#" class="active">
@@ -47,7 +50,7 @@
 
   <!-- main background page -->
   <div class="main-page">
-    <img alt="" src="./assets/bgimage.jpeg" />
+    <img alt="" src="./assets/background_images/bgimage.jpeg" />
     <div class="container1">
       <h2><span class="text-base-color">Igniting</span> Minds</h2>
       <br />
@@ -98,7 +101,7 @@
   </div>
   <!-- venue page -->
   <div class="venuepage">
-    <img alt="" src="./assets/venue2.jpg" />
+    <img alt="" src="./assets/background_images/venue.jpg" />
     <div class="centered">
       <h3 class="venue">Venue</h3>
       <br />
@@ -123,39 +126,75 @@
 
     <br />
     <div class="container3">
-      <div class="facebook"><span class="header"> Facebook </span><img src="./assets/fb.png"></div>
-      <div class="twitter"><span class="header"> Twitter </span><img src="./assets/twitter.png"></div>
+      <div class="facebook"><span class="header"> Facebook </span>
+        <div class="img1"> <img src="./assets/social_app_images/facebook/fb1.png"></div>
+        <div class="img2"> <img src="./assets/social_app_images/facebook/fb2.png"></div>
+        <div class="img3"> <img src="./assets/social_app_images/facebook/fb3.png"></div>
+
+
+      </div>
+      <div class="twitter"><span class="header"> Twitter </span>
+        <div class="img1"> <img src="./assets/social_app_images/twitter/tweet1.jpeg"></div>
+        <div class="img2"> <img src="./assets/social_app_images/twitter/tweet2.jpeg"></div>
+        <div class="img3"> <img src="./assets/social_app_images/twitter/tweet3.jpeg"></div>
+        <div class="img3"> <img src="./assets/social_app_images/twitter/tweet4.png"></div>
+
+      </div>
       <div class="instagram">
-        <span class="header"> Instagram </span><img src="./assets/insta.png">
+        <span class="header"> Instagram </span>
+        <div class="row">
+          <div class="col"><img src="./assets/social_app_images/instagram/insta1.jpeg"></div>
+          <div class="col"><img src="./assets/social_app_images/instagram/insta2.jpeg"></div>
+        </div>
+        <div class="row">
+          <div class="col"><img src="./assets/social_app_images/instagram/insta3.jpeg"></div>
+          <div class="col"><img src="./assets/social_app_images/instagram/insta4.jpeg"></div>
+        </div>
+        <div class="row">
+          <div class="col"><img src="./assets/social_app_images/instagram/insta5.jpeg"></div>
+          <div class="col"><img src="./assets/social_app_images/instagram/insta6.jpeg"></div>
+        </div>
+        <div class="row">
+          <div class="col"><img src="./assets/social_app_images/instagram/insta7.jpeg"></div>
+          <div class="col"><img src="./assets/social_app_images/instagram/insta8.jpeg"></div>
+        </div>
+        <div class="row">
+          <div class="col"><img src="./assets/social_app_images/instagram/insta9.jpeg"></div>
+          <div class="col"><img src="./assets/social_app_images/instagram/insta10.jpeg"></div>
+        </div>
+
       </div>
     </div>
   </div>
   <!-- banner page -->
   <div class="banner-page">
     <div class="data-time">
+     
       <i class="fa-solid fa-clock-nine fa fa-2x"></i>
-      <span class="header">Date &amp; Time</span><br/>
-      <h6 class="time">
-        October 16, 2017<br />
-        10 AM to 5 PM
+      <span class="header">Date &amp; Time</span><br />
+      <h6 class="time"><span class="nobold"> October 16, 2017<br />
+        10 AM to 5 PM</span>
+        
       </h6>
     </div>
     <div class="location">
       <i class="fa-solid fa-location-dot fa fa-2x"></i>
       <span class="header">Venue</span>
       <h6 class="loc">
-        Dr. M. A. Ansari Auditorium,<br />
-        Jamia Millia Islamia
+        <span class="nobold"> Dr. M. A. Ansari Auditorium,<br />
+          Jamia Millia Islamia</span>
+        
       </h6>
     </div>
-  <button class="download-btn">
-    Download insider guide
-  </button>
+    <div class="btn-div"><button class="download-btn">
+      Download Insider guide
+    </button></div>
     
+
   </div>
   <!-- time -->
   <div class="timepage">
-    <img alt="" src="./assets/tedx.jfif" />
+    <img alt="" src="./assets/background_images/tedx.jfif" />
     <div class="centered">
       <div class="days">
         <span class="value">00</span>
@@ -179,21 +218,22 @@
   <div class="footer-page">
     <div class="desclimer-side">
       <img class="footer-logo"
-        src="https://d33wubrfki0l68.cloudfront.net/262ab765ab30d0ed20815d83f7cfb001e64d8771/10a1d/res/images/logos/light.png"
+        src="assets/logo/logo_dark.png"
         alt="" />
 
-      <h5 class="text-style"> 
+      <h5 class="text-style">
         This independent TEDx event is operated under license from TED.
       </h5>
     </div>
     <div class="social-media">
-      <ul class="icons"><li><i class="fa fa-facebook fa-2x"></i></li>
+      <ul class="icons">
+        <li><i class="fa fa-facebook fa-2x"></i></li>
         <li> <i class="fa fa-twitter fa-2x"></i></li>
         <li> <i class="fa fa-instagram fa-2x"></i></li>
       </ul>
-      
-     
-     
+
+
+
     </div>
   </div>
 </body>

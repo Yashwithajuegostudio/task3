@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .container {
-  height: 9vh;
+  height: 8vh;
   width: 100%;
   background-color: rgb(7, 7, 14);
   position: relative;
@@ -15,6 +16,7 @@
   position: sticky;
   z-index: 99;
 }
+
 .nav-items {
   float: none;
   position: absolute;
@@ -29,11 +31,11 @@
   text-align: center;
   padding: 40px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 .nav-items a:hover {
-  background-color: rgb(214, 187, 187);
+color: rgb(123, 110, 110);
   font-size: 17px;
 }
 
@@ -45,11 +47,12 @@
 .logo {
   padding: 20px;
   height: 4vh;
-  padding-left: 50px;
+  padding-left: 200px;
 }
 .underline {
-  width: 50px;
-  height: 1px;
+ margin-top: 5px;
+  width: 45px;
+  height: 0.005px;
   background-color: white;
   border: 1px solid white;
 }
@@ -75,4 +78,18 @@
     display: none;
   }
   
+}
+@media (min-width: 1200px){
+.navbar {
+    background-color: rgba(0,0,0,.15);
+    border-bottom: 1px solid rgba(255,255,255,.15);
+}
+}
+ .navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  
+ 
 }

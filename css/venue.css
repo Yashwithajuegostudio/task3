@@ -3,15 +3,15 @@
   text-align: center;
 
   width: 100%;
-  height: 30%;
+  height: 20%;
 }
 .venuepage img {
   width: 100%;
-  height: 30%;
+  height: 20%;
 }
 .centered {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -31,14 +31,18 @@
   padding-bottom: 50px;
 }
 .btn {
-  outline: 3px solid white;
+  outline: 2px solid white;
 
-  padding: 20px;
-  width: 100px;
+  padding: 30px;
+  width: 200px;
   height: 50px;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
 }
 .venuepage h3,
 p,
