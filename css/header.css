@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
-
 }
 
 .container {
@@ -35,7 +33,7 @@
   text-transform: uppercase;
 }
 .nav-items a:hover {
-color: rgb(123, 110, 110);
+  color: rgb(123, 110, 110);
   font-size: 17px;
 }
 
@@ -43,74 +41,66 @@ color: rgb(123, 110, 110);
   background-color: #aa0404d7;
 }
 
-
 .logo {
   display: inline-block !important;
-    max-height: 43px !important;
-    position: absolute !important;
-    top: 15px !important;
-    
-    left: 17PX !important;
-  
+  max-height: 43px !important;
+  position: absolute !important;
+  top: 15px !important;
+
+  left: 17px !important;
 }
 .underline {
- margin-top: 5px;
+  margin-top: 5px;
   width: 45px;
   height: 0.005px;
   background-color: white;
   border: 1px solid white;
 }
 
-@media screen and (max-width:1241px){
-  .nav-items a{
+@media screen and (max-width: 1241px) {
+  .nav-items a {
     font-size: 12px;
 
     padding: 15px 5px;
   }
-  .container{
-    height: 7vh;
+  .container {
+    height: 9vh;
   }
 
-  .underline{
+  .underline {
     display: none;
   }
   .logo {
-    display: inline-block;
-      max-height: 40px;
-      position: absolute;
-      top: 10px;
-      
-      left: 19px;
-    
-  }
-  
-}
-@media screen and (max-width:768px){
+    display: inline-block !important;
+    max-height: 30px !important;
+    position: absolute !important;
+    top: 10px !important;
 
-  .nav-items a{
+    left: 19px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-items a {
     display: none;
   }
-  
 }
-@media (min-width: 1200px){
-.navbar {
-    background-color: rgba(0,0,0,.15);
-    border-bottom: 1px solid rgba(255,255,255,.15);
-}
-.logo {
-  display: inline-block;
+@media (min-width: 1200px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .logo {
+    display: inline-block;
     max-height: 30px;
     position: absolute;
     top: 15px;
-    
+
     left: 10px;
-  
-}
- .navbar-fixed-top {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
- }
- 
+  }
+  .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
 }

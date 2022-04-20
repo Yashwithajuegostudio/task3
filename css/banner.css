@@ -1,62 +1,56 @@
-  .fa-clock-o,.fa-map-marker {
-    color: red;
-   
-    
-  }
-  
-  .banner-page {
-    width: 100%;
-    height: 50%;
-    padding-top: 10vh;
-   
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 20px;
-  }
-  .data-time,
-  .location,.btn-div {
-    
-    text-align: center;
-    height: 200px;
-    width: 300px;
-  }
+.fa-clock-o,
+.fa-map-marker {
+  color: red;
+}
 
-    .download-btn {
+.banner-page {
+  width: 100%;
+  height: 50%;
+  padding-top: 10vh;
 
-    padding: 10px;
-    width: 180px;
-    height: 80px;
-    color: #e62b1e;
-    outline: none;
-    background-color: white;
-    border: 2px solid #e62b1e;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5em;
-  }
-  .download-btn:hover{
-   background-color: #e62b1e;
-   color: white;
-   
-  }
-   .header{
-   
-    font-weight: bold;
-  }
-  
-  .time,
-  .loc {
-    
-    font-size: 20px;  
-  
-    
-  }
-  .nobold{
-    font-weight: normal;
-    color: #272727;
-    line-height: 1.5em;
-  }
- 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.data-time,
+.location,
+.btn-div {
+  text-align: center;
+  height: 200px;
+  width: 300px;
+}
+.btn-div {
+  padding-top: 30px;
+}
+.download-btn {
+  padding: 10px;
+  width: 180px;
+  height: 80px;
+  color: #e62b1e;
+  outline: none;
+  background-color: white;
+  border: 2px solid #e62b1e;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.download-btn:hover {
+  background-color: #e62b1e;
+  color: white;
+}
+.header {
+  font-weight: bold;
+}
+
+.time,
+.loc {
+  font-size: 20px;
+}
+.nobold {
+  font-weight: normal;
+  color: #272727;
+  line-height: 1.5em;
+}
