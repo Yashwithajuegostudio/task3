@@ -1,23 +1,25 @@
-  .fa-solid {
+  .fa-clock-o,.fa-map-marker {
     color: red;
-    font-size: 20px;
+   
+    
   }
+  
   .banner-page {
     width: 100%;
     height: 50%;
     padding-top: 10vh;
-
+   
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   .data-time,
   .location,.btn-div {
     
     text-align: center;
-    height: 100px;
+    height: 200px;
     width: 300px;
   }
 
@@ -40,13 +42,14 @@
    color: white;
    
   }
-  .data-time ,.location .header{
- 
+   .header{
+   
     font-weight: bold;
   }
+  
   .time,
   .loc {
-    padding: 20px;
+    
     font-size: 20px;  
   
     

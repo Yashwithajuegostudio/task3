@@ -2,7 +2,7 @@
   width: 100%;
   height: 50%;
   padding-top: 5vh;
-
+  font-family: 'Catamaran', sans-serif;
   display: flex;
 
   align-items: center;
@@ -13,7 +13,8 @@
   height: 400px;
 
   padding-left: 30px;
-  line-height: 1em;
+ 
+  
 }
 .about-tedx {
   width: 400px;
@@ -21,19 +22,18 @@
   border: 1px solid rgb(246, 240, 240);
   outline: 1px solid white;
   padding: 20px;
+  font-family: 'Roboto',sans-serif;
+  
 }
-.about-event h1,
-p,
-h4 {
-  color: black;
-}
+
 .about h2 {
   font-size: 45px;
-  color: #272727;
-  padding-bottom: 20px;
+  font-family: 'Roboto',sans-serif;
+  
+  
 }
 .about {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .line {
   width: 70px;
@@ -42,20 +42,24 @@ h4 {
   border: 2px solid red;
 }
 .para {
-  font-size: 18px;
-  color: #272727;
+  font-size: 16px;
+  font-family: 'Roboto',sans-serif;
+ line-height: 1.5em;
   padding-top: 30px;
   text-align: justify;
 }
-.tedx {
-  font-size: 17px;
+.about h2,.para,.tedx,.ted,.about-event h1,p,h4{
   color: #272727;
+}
+.tedx {
+  font-size: 16px;
+ 
   text-align: justify;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 .ted {
   font-size: 18px;
-  color: black;
+ font-weight: bold;
   text-align: left;
 }
 @media screen and (max-width:1231px){
@@ -70,7 +74,8 @@ h4 {
   }
   .about h2 {
     font-size: 25px;
-    padding-bottom: 5px  ;
+    padding-bottom: 1px  ;
+    font-weight: bold;
   }
     .para{
       font-size: 10px;
@@ -79,10 +84,11 @@ h4 {
     .content-page {
      
       height: 40vh;
-      padding-top: 5vh;}
+      padding-top: 1vh;}
       .about-tedx {
         width: 200px;
         height: 200px;
+        padding: 10px;
         
       }
       .tedx {
@@ -92,45 +98,55 @@ h4 {
         
       }
       .ted {
-        font-size: 18px;
+        font-size: 16px;
         
+      }
+      .about {
+        padding-bottom: 5px;
       }
 }
 @media screen and (max-width:768px){
 
  .content-page{
- padding-top: 1vh;
+ padding-top: 0vh;
    flex-wrap: wrap;
-   height: 50vh;
+   height: 90vh;
  }
    .about-tedx {
      flex-wrap: wrap;
     width: 350px;
-    height: 100px;
+    height: 300px;
+    padding: 5px;
     
    
     
   }
   .about-event{
     width: 400px;
-  height: 150px;
+  height: 250px;
   padding-bottom: 2px;
 
   }
   .tedx ,.para{
-    font-size: 10px;
+    font-size: 12px;
     padding-bottom: 1px;
     text-align: justify;
     
   }
-  .ted,.about h2 {
+  .about h2 {
     padding-bottom: 0px;
-    font-size: 13px;
+    font-size: 20px;
+   
+   
     
   }
+  
   .line{
     width: 30px;
     height: 1px;
+  }
+  .about {
+    padding-bottom: 5px;
   }
  
   
