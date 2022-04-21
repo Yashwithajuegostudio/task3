@@ -67,6 +67,7 @@ h4 {
   .about-event {
     width: 400px;
     height: 200px;
+    padding-left: 20px;
   }
   .line {
     width: 50px;
@@ -106,7 +107,7 @@ h4 {
   .content-page {
     padding-top: 0vh;
     flex-wrap: wrap;
-    height: 90vh;
+    height: 100vh;
   }
   .about-tedx {
     flex-wrap: wrap;
@@ -118,6 +119,7 @@ h4 {
     width: 400px;
     height: 250px;
     padding-bottom: 2px;
+    padding-left: 10px;
   }
   .tedx,
   .para {

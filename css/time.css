@@ -78,6 +78,11 @@
   .timepage {
     height: 30%;
   }
+  .timepage img {
+   
+    height: 30vh;
+    
+  }
   .days,
   .hours,
   .minutes,
@@ -99,7 +104,12 @@
 
 @media screen and (max-width: 781px) {
   .timepage {
-    height: 20%;
+    height: 10%;
+  }
+  .timepage img {
+   
+    height: 10vh;
+   
   }
   .days,
   .hours,
@@ -117,5 +127,11 @@
     padding: 30px;
 
     font-size: 10px;
+  }
+  .centered {
+   
+    top: 80% !important;
+    left: 50% !important;
+    
   }
 }
